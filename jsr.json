@@ -1,0 +1,20 @@
+{
+  "name": "@makeacalendar/calenweave",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": {
+    ".": "./mod.ts",
+    "./core": "./src/core/mod.ts",
+    "./holidays": "./src/holidays/mod.ts",
+    "./business": "./src/business/mod.ts",
+    "./payroll": "./src/payroll/mod.ts",
+    "./shifts": "./src/shifts/mod.ts",
+    "./fiscal": "./src/fiscal/mod.ts",
+    "./recurrence": "./src/recurrence/mod.ts",
+    "./cron": "./src/cron/mod.ts",
+    "./converters": "./src/converters/mod.ts",
+    "./rendering": "./src/rendering/mod.ts",
+    "./exports": "./src/exports/mod.ts",
+    "./composition": "./src/composition/mod.ts"
+  }
+}

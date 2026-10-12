@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "fmt": "deno fmt",
+    "fmt:check": "deno fmt --check",
+    "lint": "deno lint",
+    "check": "deno check mod.ts",
+    "test": "deno test --allow-none",
+    "doc": "deno doc --lint mod.ts",
+    "publish:dry-run": "deno publish --dry-run",
+    "examples": "deno run examples/smoke.ts"
+  },
+  "compilerOptions": { "strict": true, "noImplicitOverride": true }
+}
