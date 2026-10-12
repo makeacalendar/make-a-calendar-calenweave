@@ -7,17 +7,19 @@
   "exports": {
     ".": "./mod.ts",
     "./core": "./src/core/mod.ts",
-    "./holidays": "./src/holidays/mod.ts",
-    "./business": "./src/business/mod.ts",
-    "./payroll": "./src/payroll/mod.ts",
-    "./shifts": "./src/shifts/mod.ts",
-    "./fiscal": "./src/fiscal/mod.ts",
-    "./recurrence": "./src/recurrence/mod.ts",
-    "./cron": "./src/cron/mod.ts",
-    "./converters": "./src/converters/mod.ts",
-    "./rendering": "./src/rendering/mod.ts",
-    "./exports": "./src/exports/mod.ts",
-    "./composition": "./src/composition/mod.ts"
+    "./holidays": "./src/holidays.ts",
+    "./business": "./src/business.ts",
+    "./payroll": "./src/payroll.ts",
+    "./shifts": "./src/shifts.ts",
+    "./fiscal": "./src/fiscal.ts",
+    "./recurrence": "./src/recurrence.ts",
+    "./cron": "./src/cron.ts",
+    "./converters": "./src/converters.ts",
+    "./rendering": "./src/rendering.ts",
+    "./exports": "./src/exports.ts",
+    "./composition": "./src/composition.ts"
   },
-  "scripts": {"test": "node --experimental-strip-types --test tests/*.test.ts"}
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.ts"
+  }
 }

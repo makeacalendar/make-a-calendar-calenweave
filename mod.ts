@@ -4,14 +4,14 @@
  * @module
  */
 export * from "./src/core/mod.ts";
-export * from "./src/holidays/mod.ts";
-export * from "./src/business/mod.ts";
-export * from "./src/payroll/mod.ts";
-export * from "./src/shifts/mod.ts";
-export * from "./src/fiscal/mod.ts";
-export * from "./src/recurrence/mod.ts";
-export * from "./src/cron/mod.ts";
-export * from "./src/converters/mod.ts";
-export * from "./src/rendering/mod.ts";
-export * from "./src/exports/mod.ts";
-export * from "./src/composition/mod.ts";
+export * from "./src/holidays.ts";
+export * from "./src/business.ts";
+export * from "./src/payroll.ts";
+export * from "./src/shifts.ts";
+export * from "./src/fiscal.ts";
+export * from "./src/recurrence.ts";
+export * from "./src/cron.ts";
+export * from "./src/converters.ts";
+export * from "./src/rendering.ts";
+export * from "./src/exports.ts";
+export * from "./src/composition.ts";
